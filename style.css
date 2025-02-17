@@ -1,0 +1,259 @@
+/* Estilos para los divs */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 20px;
+    background-color: #ffffff;
+    margin-top: 15px;
+}
+
+.logo h1 {
+    font-size: 2.5rem;
+    font-family: "Poppins";
+    font-weight: 700;
+}
+
+.lista ul {
+    display: flex;
+    display: none;
+}
+
+.lista ul li a {
+    margin: 0 10px;
+    color: black;
+}
+
+.contenedor {
+    position: relative;
+    width: 100%;
+    height: 530px;
+}
+
+.div1,
+.div2 {
+    width: 100%;
+    height: 50%;
+    background-color: #ffffff;
+}
+
+.div2 {
+    background-color: #E6DACE;
+}
+
+/* El div flotante que se posiciona sobre los otros dos */
+.flotante {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 480px;
+    background-color: #F4ECE6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -15px 15px 30px -3px rgba(0, 0, 0, 0.2);
+}
+
+.foto {
+    width: 180px;
+    height: 180px;
+    background-color: #BFBFBF;
+    border-radius: 50%;
+    margin-top: 35px;
+}
+
+.foto img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.contenedorLicen {
+    margin-bottom: 10px;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.nombreS {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+}
+
+.licenP {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.line {
+    width: 60px;
+    height: 2px;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.redes {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    margin-bottom: 25px;
+    padding: 0 20px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 15px 30px -3px rgba(0, 0, 0, 0.2);
+}
+
+.redes a img {
+    width: 25px;
+}
+
+.contenedorServicio {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E6DACE;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: -5px;
+}
+
+.contenedorInfo {
+    background-color: #E6DACE;
+    width: 85%;
+}
+
+.servicios {
+    text-align: center;
+}
+
+.servicios h2 {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.contenedorInfo h3 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.contenedorInfo p {
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.contenedorPersonal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.subPersonal {
+    background-color: #ffffff;
+    width: 85%;
+    text-align: center;
+}
+
+.subPersonal h2 {
+    margin-bottom: 8px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.subPersonal p {
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.subPersonal img {
+    width: 220px;
+    margin-top: 20px;
+}
+
+footer {
+    width: 100%;
+    background-color: #332f2c;
+    padding: 30px 50px;
+}
+
+footer h4,
+footer a {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-family: "Poppins";
+}
+
+footer h4{
+    font-weight: 700;
+}
+
+footer a {
+    display: block;
+    font-weight: 300;
+}
+
+.logoFooter {
+    display: flex;
+}
+
+.instagramFooter {
+    margin-left: 30px;
+}
+
+footer a img{
+    width: 25px;
+    filter: invert();
+}
+
+/* MEDIDAS PC */
+
+@media(min-width:1024px) {
+    .redes a img {
+        transition: 0.3s;
+    }
+
+    .redes a img:hover {
+        transform: scale(1.15);
+    }
+
+    .contenedorPrincipal {
+        display: flex;
+    }
+}
