@@ -135,14 +135,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #E6DACE;
-    padding-top: 20px;
-    padding-bottom: 50px;
-    margin-top: -5px;
+    background-color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 35px;
 }
 
 .contenedorInfo {
-    background-color: #E6DACE;
+    background-color: #ffffff;
     width: 85%;
 }
 
@@ -153,7 +152,7 @@ body {
 .servicios h2 {
     font-family: "Poppins";
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .contenedorInfo h3 {
@@ -177,14 +176,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #ffffff;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    background-color: #E6DACE;
 }
 
 .subPersonal {
-    background-color: #ffffff;
+    padding: 15px 0 25px 0;
     width: 85%;
+    background-color: #E6DACE;
     text-align: center;
 }
 
